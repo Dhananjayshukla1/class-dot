@@ -48,9 +48,9 @@ function rec(lenght,breadth){
     lenght:lenght,
     breadth:breadth,
     dr: function(){
-        console.log("this is value of lenght and breadth of this object: " + this.lenght, this.breadth);
+        console.log("this is value of lenght and breadth of this object: " + lenght, breadth);
     }
    }
 }
 let a=rec(3,4);
-console.log(a.lenght);
+console.log(a.dr());
