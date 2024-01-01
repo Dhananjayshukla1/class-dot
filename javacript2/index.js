@@ -57,7 +57,6 @@
 // console.log(a.dr());
 
 
-
 function tang(leaght,breadth){
     this.leaght=leaght,
     this.breadth=breadth,
