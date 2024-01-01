@@ -43,15 +43,27 @@
 
 
 
-function rec(lenght,breadth){
-   return rectangle={
-    lenght:lenght,
-    breadth:breadth,
-    dr: function(){
-        console.log("this is value of lenght and breadth of this object: " + lenght, breadth);
+// function rec(lenght,breadth){
+//    return rectangle={
+//     lenght:lenght,
+//     breadth:breadth,
+//     dr: function(){
+//         console.log("this is value of lenght and breadth of this object: " + lenght, breadth);
+//     }
+//    }
+
+// }
+// let a=rec(3,4);
+// console.log(a.dr());
+
+
+
+function tang(leaght,breadth){
+    this.leaght=leaght,
+    this.breadth=breadth,
+    this.dr= function(){
+        console.log('valur of: '+this.leaght+' and '+this.breadth);
     }
-   }
-   
 }
-let a=rec(3,4);
-console.log(a.dr());
+let b=new tang(2,4);
+console.log(b.leaght)
